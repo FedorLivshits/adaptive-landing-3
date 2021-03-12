@@ -30,6 +30,7 @@
     font-style: italic;
     font-display: swap;
 }
+
 @font-face {
     font-family: "RobotoCondensed-Regular";
     src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"),
@@ -82,15 +83,16 @@ body {
     margin-left: 52px;
 }
 
-.menu__list-link:hover{
+.menu__list-link:hover {
     text-decoration: underline;
 }
-.header__phone{
+
+.header__phone {
     padding-left: 40px;
     position: relative;
 }
 
-.header__phone::before{
+.header__phone::before {
     content: "";
     position: absolute;
     background-image: url("../images/phone-icon.svg");
@@ -99,15 +101,16 @@ body {
     left: 0;
 }
 
-.header__title{
+.header__title {
     padding-top: 152px;
     text-align: center;
     font-size: 250px;
     line-height: 254px;
     font-family: "balqis";
+    font-weight: 400;
 }
 
-.header__title span{
+.header__title span {
     display: block;
     text-align: right;
     font-size: 56px;
