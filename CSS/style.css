@@ -63,7 +63,8 @@ body {
 }
 
 .page-section {
-    margin: 200px 0;
+    margin: 200px auto;
+    max-width: 1920px;
 }
 
 .title {
@@ -181,3 +182,6 @@ body {
     font-family: "RobotoCondensed-Regular";
 }
 
+.our-trip__slider{
+    width: 50%;
+}
