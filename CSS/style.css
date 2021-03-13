@@ -239,12 +239,14 @@ body {
 .hotel__inner{
     display: flex;
 }
+
 .hotel__img{
     margin-right: 100px;
 }
 
 .hotel__text{
     margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .hotel__gallery{
